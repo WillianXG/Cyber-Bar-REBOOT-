@@ -1,6 +1,6 @@
-body{
+body {
     font-family: Poppins;
-    background-color:  #40415b;
+    background-color: #40415b;
 }
 
 nav {
@@ -10,13 +10,16 @@ nav {
     background-color: #7375a5;
     height: 15vh;
     width: 100%;
+    border-radius: 10px;
+
 
 }
-nav img{
+
+nav img {
     width: 200px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
 
 }
@@ -25,37 +28,64 @@ nav ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    padding:0px;
+    padding: 0px;
     float: right;
 }
 
-nav ul li {     
-    display: inline-block;     
-    line-height: 80px;     
-    margin: 0 5px 
-}  
-
-nav ul li a {     
-    color: black;
-    font-size: 15px;    
-    padding: 7px 13px;     
-    border-radius: 3px;     
-    text-transform: uppercase;     
-    font-family: Poppins;
-    text-decoration: none;     
-    font-weight: bold; 
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px
 }
 
-ul li a:hover{
+nav ul li a {
+    color: black;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Poppins;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
     background-color: #4c4d69;
     color: black;
     cursor: pointer;
 }
 
-
-
-#icone-cyberbar-rodape{
+.slide {
     display: flex;
-    justify-content: end;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1 {
+    display: flex;
+    align-items: center;
+}
+
+.text1 p {
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+}
+.text2 p {
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+}
+.text3 p {
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+}
+
+.text2 {
+    display: flex;
+}
+
+.text3 {
+    display: flex;
 }
