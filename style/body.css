@@ -1,6 +1,7 @@
 body {
     font-family: Poppins;
     background-color: #40415b;
+    
 }
 
 nav {
@@ -55,37 +56,86 @@ ul li a:hover {
     cursor: pointer;
 }
 
-.slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+
+#text1 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    column-gap: 8rem;
+    align-items: center;  
+    
+}
+#text2 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    column-gap: 8rem;
+    align-items: center;  
 }
 
-.text1 {
-    display: flex;
-    align-items: center;
+#text3 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    column-gap: 8rem;
+    align-items: center;  
 }
 
-.text1 p {
-    display: flex;
-    justify-content: space-around;
-    text-align: right;
+#text1 p {
+    margin: 0.8rem 0 1.8rem;
+    line-height: 1.7;  
 }
-.text2 p {
-    display: flex;
-    justify-content: space-around;
-    text-align: right;
+#text2 p {
+    margin: 6.9rem 0 1.8rem;
+    line-height: 1.7;  
 }
-.text3 p {
-    display: flex;
-    justify-content: space-around;
-    text-align: right;
+#text3 p {
+    margin: 0.8rem 0 1.8rem;
+    line-height: 1.7;
 }
 
-.text2 {
-    display: flex;
+
+.img-text2{
+    max-width: 90%;
+    width: 480px;
+    height: auto;
+    border-radius: 0.5rem;
 }
 
-.text3 {
-    display: flex;
+.img-text2 img{
+    max-width: 90%;
+    width: 480px;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+
+.img-text1{
+    max-width: 90%;
+    width: 480px;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.text1 h2{
+    font-size: var(--h2-font);
+}
+
+.img-text1 img{
+    max-width: 90%;
+    width: 480px;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.img-text3{
+    max-width: 90%;
+    width: 480px;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.img-text3 img{
+    max-width: 90%;
+    width: 480px;
+    height: auto;
+    border-radius: 0.5rem;
 }
