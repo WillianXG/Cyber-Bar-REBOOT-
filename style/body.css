@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Poppins;
     background-color: #40415b;
@@ -8,6 +12,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-items: center;
     background-color: #7375a5;
     height: 15vh;
     width: 100%;
@@ -17,7 +22,11 @@ nav {
 }
 
 nav img {
+    position: relative;
+    top: 25px;
     width: 200px;
+    
+    
 }
 
 nav a {
